@@ -16,7 +16,7 @@
 
 **缺点：** 后端受限于ai字数限制，分析的数据不能过长
 
-> 该文档主要是后端接口本项目使用了Swagger + Knife4j 接口文档启动后可以点击该[接口文档](http://localhost:8080/api/doc.html)直接测试;
+> 该文档主要是后端接口本项目使用了Swagger + Knife4j 接口文档启动后可以点击该[接口文档] (http://localhost:8080/api/doc.html)直接测试;
 >
 > 前端代码可根据接口自行修改,该项目前端过于丑陋。
 
@@ -89,7 +89,7 @@ redis >= 7.0.0
       secret-key: 
   ````
 
-  * 也可以选择ChatGTP(需要魔法，按字数收费),可以导入下面SDK方便操作，需要到[openAI]([API Reference - OpenAI API](https://platform.openai.com/account/api-keys)) 官网申请秘钥
+  * 也可以选择ChatGTP(需要魔法，按字数收费),可以导入下面SDK方便操作，需要到[openAI](https://platform.openai.com/account/api-keys)) 官网申请秘钥
 
     ````xml
     <!-- https://mvnrepository.com/artifact/com.theokanning.openai-gpt3-java/service -->
