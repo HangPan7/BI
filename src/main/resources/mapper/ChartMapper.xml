@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootinit.mapper.ChartMapper">
+
+    <resultMap id="BaseResultMap" type="com.springbootinit.model.entity.Chart">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="chartName" column="charName" jdbcType="VARCHAR"/>
+            <result property="goal" column="goal" jdbcType="VARCHAR"/>
+            <result property="chartData" column="chartData" jdbcType="VARCHAR"/>
+            <result property="chartType" column="chartType" jdbcType="VARCHAR"/>
+            <result property="genResult" column="genResult" jdbcType="VARCHAR"/>
+            <result property="genChart" column="genChart" jdbcType="VARCHAR"/>
+            <result property="userId" column="userId" jdbcType="BIGINT"/>
+        <result property="status" column="status" jdbcType="TIMESTAMP"/>
+        <result property="execMessage" column="execMessage" jdbcType="TIMESTAMP"/>
+            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,chartName,goal,chartData,
+        chartType,genResult,userId,genChart
+        createTime,updateTime,isDelete,status,execMessage
+    </sql>
+</mapper>
