@@ -6,7 +6,7 @@
 
 本项目是基于React+Spring Boot+RabbitMQ+AIGC的智能BI数据分析平台，原项目来自[知识星球编程导航](https://yupi.icu/)。
 
-访问地址：http://42.193.236.88/
+访问地址：http://www.cleverboy.top
 
 > AIGC ：Artificial Intelligence Generation Content(AI 生成内容)
 
@@ -16,7 +16,7 @@
 
 **缺点：** 后端受限于ai字数限制，分析的数据不能过长
 
-> 该文档主要是后端接口本项目使用了Swagger + Knife4j 接口文档启动后可以点击该[接口文档] (http://localhost:8080/api/doc.html) 直接测试;
+> 该文档主要是后端接口本项目使用了Swagger + Knife4j 接口文档启动后可以点击该接口文档http://localhost:8080/api/doc.html 直接测试;
 >
 > 前端代码可根据接口自行修改,该项目前端过于丑陋。
 
